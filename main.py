@@ -48,7 +48,7 @@ from docx.oxml import OxmlElement
 load_dotenv()
 
 # Set Tesseract executable path - update this path to match your Tesseract installation
-pytesseract.pytesseract.tesseract_cmd = r"C:\Users\PRAKASH.R\AppData\Local\Programs\Tesseract-OCR\tesseract.exe"
+#pytesseract.pytesseract.tesseract_cmd = r"C:\Users\PRAKASH.R\AppData\Local\Programs\Tesseract-OCR\tesseract.exe"
 
 app = FastAPI(title="Fox Mandal OCR-AI API")
 
